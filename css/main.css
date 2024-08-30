@@ -400,7 +400,7 @@ button {
 }
 
 .c-slot.popular.lazyloaded::before {
-    background-image: url(../img/icons/popular.svg)
+    background-image: url(../images/popular.svg)
 }
 
 .c-slot.popular::before {
