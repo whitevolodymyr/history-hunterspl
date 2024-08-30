@@ -1399,3 +1399,31 @@ button {
         grid-template-columns: repeat(5, 1fr)
     }
 }
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .payment-methods-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+
+  .payment-methods-table th, .payment-methods-table td {
+    padding: 12px;
+    border: 2px solid #ddd;
+  }
+
+  .payment-methods-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  .payment-methods-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
