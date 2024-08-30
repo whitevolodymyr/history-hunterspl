@@ -520,7 +520,7 @@ button {
 
 .c-info-bricks-2__item {
     align-items: center;
-    background: #f5f5f5;
+    background: #1547ff;
     border-radius: 32px;
     border: 5px solid #1547ff;
     display: flex;
@@ -530,7 +530,8 @@ button {
     padding: 20px;
     justify-content: center;
     text-align: center;
-    min-height: 368px
+    min-height: 368px;
+    color: #ffffff;
 }
 
 .c-info-bricks-2__title {
