@@ -621,7 +621,7 @@ button {
 }
 
 .c-nav__sign-up::after {
-    background-image: url(../img/icons/profile-plus.svg)
+    background-image: url(../images/profile-plus.svg)
 }
 
 .c-nav__sign-in {
