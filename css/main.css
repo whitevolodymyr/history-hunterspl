@@ -935,7 +935,7 @@ button {
 }
 
 .c-footer__accordion.lazyloaded::after {
-    background-image: url(../img/icons/footer/down-arrow.svg)
+    background-image: url(../images/down-arrow.svg)
 }
 
 .c-footer__accordion::after {
@@ -1326,7 +1326,7 @@ button {
     }
 
     .c-nav__item--diamond::before {
-        background: url(../img/icons/diamond.svg);
+        background: url(../images/diamond.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
