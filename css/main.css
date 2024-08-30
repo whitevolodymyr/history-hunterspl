@@ -213,7 +213,7 @@ button {
 }
 
 .c-slider__btn::after {
-    background-image: url("../img/icons/play.svg");
+    background-image: url("../images/play.svg");
     background-repeat: no-repeat;
     background-size: 12px;
     background-position: center;
