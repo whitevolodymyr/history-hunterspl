@@ -1406,12 +1406,18 @@ button {
     margin: 20px 0;
   }
 
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+  }
+
   .payment-methods-table {
     width: 100%;
     max-width: 800px;
     border-collapse: collapse;
     text-align: left;
     font-family: Arial, sans-serif;
+    font-size: 14px;
   }
 
   .payment-methods-table th, .payment-methods-table td {
@@ -1426,4 +1432,11 @@ button {
 
   .payment-methods-table tr:nth-child(even) {
     background-color: #f9f9f9;
+  }
+
+  @media screen and (max-width: 600px) {
+    .payment-methods-table th, .payment-methods-table td {
+      padding: 8px;
+      font-size: 12px;
+    }
   }
